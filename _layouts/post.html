@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<title>xero.io - {{page.title}}</title>
+	
+</head>
+
+<body>
+	
+	<div id='logo'>
+		<a href='/'><img src="/images/logo.png" width="140" height="88" alt="Logo"></a>
+	</div>
+	
+	<div id='content'>
+		<div id='header'>
+			<div id='date'>
+				{{ page.date | date_to_string }}
+			</div>
+			<div id='desk'>
+				from the desk of xero
+			</div>
+		</div>
+		<div id='post'>
+			{{ content }}
+			<p class='sig'>
+				++ xero
+			</p>		
+		</div>
+		<div id='footer'>
+			<p class='more'>
+				<a href='/'>&larr; more posts</a>
+			</p>
+			scientific operations from the engine room <br />
+			<a href='http://twitter.com/the_xero'>@the_xero</a> on twitter &middot; <a href='mailto:x@xero.io'>x@xero.io</a> via email
+		</div>		
+	</div>
+	
+	<script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script>
+	<script type="text/javascript">
+	try {
+	reinvigorate.track("0ba17-d0927nmrzj");
+	} catch(err) {}
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,11 @@
+---
+layout: default
+title: scientific operations from the engine room
+---
+
+<div class='posts'>
+	<h1>posts</h1>
+	{% for post in site.posts %}
+		<li><a href='{{post.url}}' class='post'>{{post.title}}</a><br /><span class='date'>{{ post.date | date_to_string }}</span></li>
+	{% endfor %}
+</div>
